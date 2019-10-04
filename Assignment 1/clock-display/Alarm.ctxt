@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Alarm
+comment0.text=\n\ This\ class\ implements\ an\ alarm\ system\ in\ an\ alarm\ clock.\ The\ time\ for\ the\n\ alarm\ can\ be\ set.\ It\ can\ also\ be\ turned\ on\ or\ off.\ \n\n\ @author\ Dharshatharan\ J.A.\n\ @version\ September\ 18th,\ 2019\n
+comment1.params=
+comment1.target=Alarm()
+comment1.text=\n\ Constructor\ without\ parameters\ for\ objects\ of\ class\ Alarm\n
+comment2.params=hours\ minutes\ amPm\ newAlarmStatus
+comment2.target=Alarm(int,\ int,\ java.lang.String,\ boolean)
+comment2.text=\n\ Constructor\ with\ parameters\ for\ objects\ of\ class\ Alarm\n
+comment3.params=hours\ minutes\ amPm
+comment3.target=void\ setTime(int,\ int,\ java.lang.String)
+comment3.text=\n\ Sets\ the\ time\ of\ the\ alarm\n
+comment4.params=
+comment4.target=void\ turnOn()
+comment4.text=\n\ Turns\ on\ the\ alarm\n
+comment5.params=
+comment5.target=void\ turnOff()
+comment5.text=\n\ Turns\ off\ the\ alarm\n
+comment6.params=
+comment6.target=java.lang.String\ getTime()
+comment6.text=\n\ Returns\ the\ time\ the\ alarm\ is\ set\ to\n
+comment7.params=
+comment7.target=boolean\ isSet()
+comment7.text=\n\ returns\ true\ if\ the\ alarm\ is\ set\ and\ false\ if\ not\n
+numComments=8

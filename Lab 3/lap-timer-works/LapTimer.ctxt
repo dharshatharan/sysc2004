@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LapTimer()
+comment0.text=\r\n\ Create\ a\ new\ lap\ timer\ and\ show\ it.\r\n
+comment1.params=
+comment1.target=void\ show()
+comment1.text=\r\n\ In\ case\ the\ window\ was\ closed,\ show\ it\ again.\r\n
+numComments=2

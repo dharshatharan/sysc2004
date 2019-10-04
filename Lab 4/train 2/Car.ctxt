@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Car
+comment1.params=carId\ isBusinessClass
+comment1.target=Car(int,\ boolean)
+comment1.text=\n\ Constructs\ a\ new\ Car\ object\ with\ the\ specified\ id.\n\ If\ parameter\ isBusinessClass\ is\ true,\ the\ car\ is\ a\ business-class\n\ car.\ If\ parameter\ isBusinessClass\ is\ false,\ the\ car\ is\ an\n\ economy-class\ car.\n
+comment2.params=
+comment2.target=Seat[]\ seats()
+comment2.text=\n\ Returns\ this\ car's\ list\ of\ seats.\ This\ method\ is\ intended\ for\ \n\ testing\ purposes\ only,\ and\ should\ not\ be\ called\ by\ other\ objects,\n\ as\ it\ may\ be\ removed\ from\ the\ final\ version\ of\ this\ class.\n\ \n\ @return\ The\ seats\ in\ this\ car,\ an\ array\ of\ Seat\ objects.\n
+comment3.params=
+comment3.target=boolean\ isBusinessClass()
+comment3.text=\ \n\ Returns\ true\ if\ this\ is\ a\ business-class\ car,\n\ false\ if\ this\ is\ an\ economy-class\ car.\n
+comment4.params=
+comment4.target=int\ id()
+comment4.text=\n\ Returns\ the\ id\ of\ this\ car.\n
+comment5.params=seatNo
+comment5.target=void\ printTicket(int)
+comment5.text=\n\ This\ method\ is\ called\ when\ the\ specified\ seat\ has\ been\ booked,\n\ to\ print\ a\ ticket\ for\ that\ seat.\n\ \n\ @param\ seatNo\ The\ integer\ identifier\ of\ the\ seat.\n
+comment6.params=
+comment6.target=boolean\ bookNextSeat()
+comment6.text=\n\ Attempts\ to\ book\ a\ seat.\ If\ successful,\ this\ method\ prints\ a\ \n\ ticket\ and\ returns\ true.\n\ If\ no\ seats\ are\ available,\ this\ method\ returns\ false.\n
+comment7.params=seatNo
+comment7.target=boolean\ cancelSeat(int)
+comment7.text=\ \n\ Cancels\ the\ booking\ for\ the\ specified\ seat,\ which\ must\ be\ between\n\ 1\ and\ the\ maximum\ number\ of\ seats\ in\ the\ car.\n\ If\ the\ seat\ number\ is\ valid\ and\ if\ the\ seat\ has\ been\ reserved,\ this\n\ method\ cancels\ the\ booking\ for\ that\ seat\ and\ returns\ true.\ \n\ If\ the\ seat\ number\ is\ not\ valid,\ this\ method\ returns\ false.\ \n\ If\ the\ seat\ number\ is\ valid,\ but\ the\ seat\ has\ not\ been\ reserved,\ \n\ this\ method\ returns\ false.\n
+numComments=8

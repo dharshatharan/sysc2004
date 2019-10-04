@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=frontSeats\ backSeats
+comment0.target=Car(int,\ int)
+comment0.text=\r\n\ Create\ a\ car\ with\ seat\ numbers\r\n
+comment1.params=
+comment1.target=int\ seats()
+comment1.text=\r\n\ Return\ the\ number\ of\ seats\ in\ the\ car.\r\n
+numComments=2

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Heater
+comment0.text=\n\ A\ Heater\ models\ a\ simple\ space-heater.\ The\ operations\ provided\ by\ a\ Heater\n\ object\ are\:\n\ 1.\ Increase\ and\ decrease\ the\ temperature\ setting\ by\ a\ set\ amount.\n\ 2.\ Return\ the\ current\ temperature\ setting.\n\ 3.\ Change\ the\ set\ amount\ by\ which\ the\ temperature\ is\ increased\ and\ lowered.\n\ \n\ @author\ L.S.\ Marshall,\ SCE,\ Carleton\ University\n\ (incomplete\ implementation\ for\ SYSC\ 2004\ Lab\ 2)\n\ @author\ Dharshatharan\ J.\ A.\n\ @version\ 1.03\ September\ 18th,\ 2019\n
+comment1.params=
+comment1.target=Heater()
+comment1.text=\n\ Constructs\ a\ new\ Heater\ with\ an\ initial\ temperature\ setting\ of\ 15\n\ degrees,\ and\ which\ increments\ and\ decrements\ the\ temperature\n\ setting\ in\ increments\ of\ 5\ degrees.\n
+comment2.params=minTemp\ maxTemp
+comment2.target=Heater(int,\ int)
+comment2.text=\n\ Write\ an\ appropriate\ comment\ here.\n
+comment3.params=
+comment3.target=int\ temperature()
+comment3.text=\n\ Returns\ the\ temperature\ of\ the\ heater.\n
+comment4.params=
+comment4.target=void\ warmer()
+comment4.text=\n\ Increases\ the\ temperature\ by\ the\ increment\ value.\n
+comment5.params=
+comment5.target=void\ cooler()
+comment5.text=\n\ Decreases\ the\ temperature\ by\ the\ increment\ value.\n
+comment6.params=newIncrement
+comment6.target=void\ setIncrement(int)
+comment6.text=\n\ Write\ an\ appropriate\ comment\ here.\n
+numComments=7
