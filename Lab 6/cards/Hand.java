@@ -20,6 +20,7 @@ public class Hand
      */
     public Hand()
     {   
+        cards = new ArrayList<Card>();
     }
     
     /**
@@ -27,6 +28,7 @@ public class Hand
      */
     public void addCard(Card aCard)
     {
+        cards.add(aCard);
     }
      
    /**
@@ -35,7 +37,7 @@ public class Hand
      */
     public Card playCard()
     {
-        return null;
+        return cards.remove(0);
     }
 
     /**
@@ -43,7 +45,7 @@ public class Hand
      */    
     public int size()
     {
-        return -1;
+        return cards.size();
     }
 
     /**
@@ -51,6 +53,9 @@ public class Hand
      */    
     public boolean isEmpty()
     {
+        if(cards.size() == 0){
+            return true;
+        }
         return false;
     }
 
