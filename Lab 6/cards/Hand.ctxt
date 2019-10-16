@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Hand
+comment0.text=\n\ Hand\ models\ a\ hand\ of\ cards\ held\ by\ a\ player.\n\ \n\ @author\ Lynn\ Marshall\ \n\ @version\ 1.2\ Feb\ 19,\ 2019\n\n
+comment1.params=
+comment1.target=Hand()
+comment1.text=\n\ Constructs\ a\ new,\ empty\ hand.\n
+comment2.params=aCard
+comment2.target=void\ addCard(Card)
+comment2.text=\n\ Adds\ the\ specified\ card\ to\ this\ hand.\n
+comment3.params=
+comment3.target=Card\ playCard()
+comment3.text=\n\ Removes\ a\ card\ from\ this\ hand.\ Cards\ are\ removed\ in\ the\ order\ in\n\ which\ they\ were\ added\ to\ the\ hand.\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\n\ Returns\ the\ number\ of\ cards\ that\ are\ currently\ in\ this\ hand.\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\n\ Determines\ if\ this\ hand\ is\ empty.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Returns\ a\ String\ that\ lists\ the\ ranks\ (but\ not\ the\ suits)\ of\ all\ the\ \n\ cards\ in\ this\ hand,\ starting\ with\ the\ first\ card\ and\ finishing\ with\n\ the\ last\ card.\ For\ example,\ if\ the\ first\ card\ is\ the\ two\ of\ hearts,\ \n\ the\ second\ card\ is\ the\ five\ of\ diamonds,\ and\ the\ last\ card\ is\ the\n\ queen\ of\ clubs,\ the\ String\ returned\ by\ this\ method\ will\ be\:\ "2\ 5\ 12".\n
+numComments=7
