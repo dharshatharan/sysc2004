@@ -1,15 +1,15 @@
 #BlueJ class context
 comment0.target=CardTest
-comment0.text=\n\ The\ test\ class\ CardTest.\n\n\ @author\ \ Lynn\ Marshall\n\ @version\ 1.1\ October\ 11,\ 2012\n
+comment0.text=\r\n\ The\ test\ class\ CardTest.\r\n\r\n\ @author\ \ Lynn\ Marshall\r\n\ @version\ 1.1\ October\ 11,\ 2012\r\n
 comment1.params=
 comment1.target=CardTest()
-comment1.text=\n\ Default\ constructor\ for\ test\ class\ CardTest\n
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ CardTest\r\n
 comment2.params=
 comment2.target=void\ setUp()
-comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
 comment3.params=
 comment3.target=void\ tearDown()
-comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
 comment4.params=
 comment4.target=void\ testCreateAllCards()
 comment4.text=Verifies\ that\ we\ can\ create\ 52\ different\ cards\ (13\ in\ each\ suit).

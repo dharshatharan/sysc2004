@@ -68,6 +68,13 @@ public class Hand
      */
     public String toString()
     {
-        return "";
+        if(cards.size() == 0){
+            return "";
+        }
+        String ranks = String.valueOf(cards.get(0).rank());
+        for(int i=1; i<cards.size(); i++){
+            ranks += " " + String.valueOf(cards.get(i).rank());
+        }
+        return ranks;
     }
 }

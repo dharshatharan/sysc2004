@@ -1,19 +1,19 @@
 #BlueJ class context
 comment0.target=Card
-comment0.text=\n\ A\ Card\ is\ a\ playing\ card\ from\ an\ Anglo-American\ deck\ of\ cards.\n\ \n\ @author\ Lynn\ Marshall\n\ @author\ Dharshatharan\ J.\ A.\n\ @version\ 1.2\ October\ 16,\ 2019\n
+comment0.text=\r\n\ A\ Card\ is\ a\ playing\ card\ from\ an\ Anglo-American\ deck\ of\ cards.\r\n\ \r\n\ @author\ Lynn\ Marshall\r\n\ @author\ Dharshatharan\ J.\ A.\r\n\ @version\ 1.2\ October\ 16,\ 2019\r\n
 comment1.params=suit\ rank
 comment1.target=Card(java.lang.String,\ int)
-comment1.text=\n\ Constructs\ a\ new\ card\ with\ the\ specified\ suit\ and\ rank.\n
+comment1.text=\r\n\ Constructs\ a\ new\ card\ with\ the\ specified\ suit\ and\ rank.\r\n
 comment2.params=
 comment2.target=java.lang.String\ suit()
-comment2.text=\n\ Returns\ this\ card's\ suit.\n\ \n\ @return\ suit\ the\ suit\ of\ the\ card\n
+comment2.text=\r\n\ Returns\ this\ card's\ suit.\r\n\ \r\n\ @return\ suit\ the\ suit\ of\ the\ card\r\n
 comment3.params=
 comment3.target=int\ rank()
-comment3.text=\n\ Returns\ this\ card's\ rank.\n\ \n\ @return\ rank\ the\ rank\ of\ the\ card\n
+comment3.text=\r\n\ Returns\ this\ card's\ rank.\r\n\ \r\n\ @return\ rank\ the\ rank\ of\ the\ card\r\n
 comment4.params=aCard
 comment4.target=boolean\ hasSameRank(Card)
-comment4.text=\n\ Determines\ if\ this\ card\ has\ the\ same\ rank\ as\ the\ specified\ card.\n\ \n\ @param\ aCard\ Card\ to\ check\ same\ rank\n\ @return\ true\ if\ rank\ is\ same\n
+comment4.text=\r\n\ Determines\ if\ this\ card\ has\ the\ same\ rank\ as\ the\ specified\ card.\r\n\ \r\n\ @param\ aCard\ Card\ to\ check\ same\ rank\r\n\ @return\ true\ if\ rank\ is\ same\r\n
 comment5.params=aCard
 comment5.target=boolean\ isEqualTo(Card)
-comment5.text=\n\ Determines\ if\ this\ card\ is\ equal\ to\ the\ specified\ card.\n\ \n\ @param\ aCard\ Card\ to\ check\ same\ rank\n\ @return\ true\ is\ card\ it\ the\ same\n
+comment5.text=\r\n\ Determines\ if\ this\ card\ is\ equal\ to\ the\ specified\ card.\r\n\ \r\n\ @param\ aCard\ Card\ to\ check\ same\ rank\r\n\ @return\ true\ is\ card\ it\ the\ same\r\n
 numComments=6
