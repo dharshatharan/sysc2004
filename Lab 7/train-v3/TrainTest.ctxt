@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=TrainTest
+comment0.text=\n\ The\ test\ class\ TrainTest.\n\n\ @author\ \ Lynn\ Marshall\n\ @version\ May\ 2015\n
+comment1.params=
+comment1.target=TrainTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ TrainTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ testCreateEmptyTrain()
+comment5.params=
+comment5.target=void\ testAddCar()
+comment6.params=
+comment6.target=void\ testIssueTicket()
+comment7.params=
+comment7.target=void\ testCancelTicket()
+comment8.params=
+comment8.target=void\ testBookCancelTicket()
+numComments=9

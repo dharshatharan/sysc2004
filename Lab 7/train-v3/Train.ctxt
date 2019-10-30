@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Train
+comment1.params=
+comment1.target=Train()
+comment1.text=\ \n\ Constructs\ an\ empty\ train;\ i.e.,\ one\ that\ has\ no\ cars.\n
+comment2.params=car
+comment2.target=void\ addCar(Car)
+comment2.text=\n\ Adds\ the\ specified\ car\ to\ this\ train.\n\ \n\ @param\ car\ the\ car\ object\ that\ needs\ to\ be\ added\n
+comment3.params=
+comment3.target=java.util.ArrayList\ cars()
+comment3.text=\n\ Returns\ this\ trains's\ list\ of\ cars.\ This\ method\ is\ intended\ for\ \n\ testing\ purposes\ only,\ and\ should\ not\ be\ called\ by\ other\ objects,\n\ as\ it\ may\ be\ removed\ from\ the\ final\ version\ of\ this\ class.\n\ \n\ @return\ A\ list\ of\ the\ cars\ in\ the\ train\n
+comment4.params=businessClassSeat
+comment4.target=boolean\ issueTicket(boolean)
+comment4.text=\n\ Attempts\ to\ issue\ a\ ticket\ for\ a\ business\ class\ seat\ or\ an\n\ economy\ class\ seat,\ as\ specified\ by\ the\ method's\ argument.\n\ It\ will\ attempt\ to\ book\ a\ seat\ in\ the\ first\ car\ of\ the\ appropriate\n\ type,\ but\ if\ a\ seat\ is\ not\ available\ it\ will\ attempt\ to\ book\ a\ seat\n\ in\ the\ second\ car\ of\ the\ appropriate\ type,\ and\ so\ on.\ \n\ A\ request\ to\ issue\ a\ ticket\ in\ a\ business-class\ car\ will\ never\ result\n\ in\ a\ seat\ being\ reserved\ in\ an\ economy-class\ car,\ and\ vice-versa.\ \n\ Returns\ true\ if\ successful,\ false\ otherwise.\n
+comment5.params=carId\ seatNo
+comment5.target=boolean\ cancelTicket(int,\ int)
+comment5.text=\n\ Cancels\ the\ ticket\ for\ the\ specified\ seat\ in\ the\ specified\ car.\n\ Returns\ true\ if\ successful,\ false\ otherwise.\n
+numComments=6

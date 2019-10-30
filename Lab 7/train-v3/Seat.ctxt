@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=seatNo\ cost
+comment0.target=Seat(int,\ double)
+comment0.text=\r\n\ Constructs\ a\ new\ Seat\ with\ the\ specified\ seat\ number\ and\r\n\ ticket\ price.\r\n
+comment1.params=
+comment1.target=double\ price()
+comment1.text=\r\n\ Returns\ the\ cost\ of\ purchasing\ a\ ticket\ for\ this\ Seat.\r\n
+comment2.params=
+comment2.target=int\ number()
+comment2.text=\r\n\ Returns\ this\ seat's\ number.\r\n
+comment3.params=
+comment3.target=boolean\ isBooked()
+comment3.text=\r\n\ Returns\ true\ if\ someone\ has\ purchased\ a\ ticket\r\n\ for\ this\ this\ Seat.\r\n
+comment4.params=
+comment4.target=boolean\ book()
+comment4.text=\r\n\ If\ this\ seat\ is\ available,\ books\ it\ and\ returns\ true.\r\n\ If\ the\ seat\ is\ not\ available,\ returns\ false.\r\n
+comment5.params=
+comment5.target=boolean\ cancelBooking()
+comment5.text=\r\n\ If\ this\ seat\ is\ booked,\ cancels\ the\ booking\ and\ returns\ true.\r\n\ If\ the\ seat\ was\ not\ booked,\ returns\ false.\r\n
+numComments=6
