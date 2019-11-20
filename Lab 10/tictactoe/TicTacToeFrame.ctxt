@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TicTacToeFrame
+comment0.text=\n\ A\ class\ modelling\ a\ tic-tac-toe\ (noughts\ and\ crosses,\ Xs\ and\ Os)\ game\ in\ a\ very\n\ simple\ GUI\ window.\n\ \n\ @author\ Lynn\ Marshall\n\ @version\ November\ 8,\ 2012\n
+comment1.params=
+comment1.target=TicTacToeFrame()
+comment1.text=\ \n\ Constructs\ a\ new\ Tic-Tac-Toe\ board\ and\ sets\ up\ the\ basic\n\ JFrame\ containing\ a\ JTextArea\ in\ a\ JScrollPane\ GUI.\n
+comment2.params=
+comment2.target=void\ print()
+comment2.text=\n\ Prints\ the\ board\ to\ the\ GUI\ using\ toString().\n
+numComments=3
