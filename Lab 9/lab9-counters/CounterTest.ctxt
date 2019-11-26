@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CounterTest
+comment0.text=\n\ The\ test\ class\ CounterTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=CounterTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ CounterTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ testAllRollOverCounterMethods()
+comment4.text=\n\ Tests\ the\ original\ (lab\ 8)\ RollOverCounter\ methods.\n
+comment5.params=
+comment5.target=void\ testAllLimitedCounterMethods()
+comment6.params=
+comment6.target=void\ testNewRollOverCounterMethods()
+comment7.params=
+comment7.target=void\ testNewLimitedCounterMethods()
+numComments=8
