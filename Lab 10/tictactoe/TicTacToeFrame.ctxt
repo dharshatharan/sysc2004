@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=TicTacToeFrame
-comment0.text=\n\ A\ class\ modelling\ a\ tic-tac-toe\ (noughts\ and\ crosses,\ Xs\ and\ Os)\ game\ in\ a\ very\n\ simple\ GUI\ window.\n\ \n\ @author\ Lynn\ Marshall\n\ @version\ November\ 8,\ 2012\n
+comment0.text=\r\n\ A\ class\ modelling\ a\ tic-tac-toe\ (noughts\ and\ crosses,\ Xs\ and\ Os)\ game\ in\ a\ very\r\n\ simple\ GUI\ window.\r\n\ \r\n\ @author\ Lynn\ Marshall\r\n\ @version\ November\ 8,\ 2012\r\n
 comment1.params=
 comment1.target=TicTacToeFrame()
-comment1.text=\ \n\ Constructs\ a\ new\ Tic-Tac-Toe\ board\ and\ sets\ up\ the\ basic\n\ JFrame\ containing\ a\ JTextArea\ in\ a\ JScrollPane\ GUI.\n
+comment1.text=\ \r\n\ Constructs\ a\ new\ Tic-Tac-Toe\ board\ and\ sets\ up\ the\ basic\r\n\ JFrame\ containing\ a\ JTextArea\ in\ a\ JScrollPane\ GUI.\r\n
 comment2.params=
 comment2.target=void\ print()
-comment2.text=\n\ Prints\ the\ board\ to\ the\ GUI\ using\ toString().\n
+comment2.text=\r\n\ Prints\ the\ board\ to\ the\ GUI\ using\ toString().\r\n
 numComments=3
