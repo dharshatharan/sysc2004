@@ -58,6 +58,8 @@ public class TicTacToeGUI extends TicTacToe
         c.ipady = 40;
         panel.add(status, c);
         
+        clearBoard();
+        
         
         frame.add(panel);
         frame.setVisible(true);

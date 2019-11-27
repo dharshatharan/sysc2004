@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Counter
+comment1.params=
+comment1.target=Counter()
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=\ This\ action\ listener\ is\ called\ when\ the\ user\ clicks\ on\ \n\ any\ of\ the\ GUI's\ buttons.\ \n
+numComments=4

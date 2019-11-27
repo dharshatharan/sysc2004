@@ -34,7 +34,7 @@ public class TicTacToe
     * Sets everything up for a new game.  Marks all squares in the Tic Tac Toe board as empty,
     * and indicates no winner yet, 9 free squares and the current player is player X.
     */
-   private void clearBoard()
+   protected void clearBoard()
    {
       for (int i = 0; i < 3; i++) {
          for (int j = 0; j < 3; j++) {
@@ -53,7 +53,7 @@ public class TicTacToe
 
    public void playGame(int row, int col)
    {
-
+     
 
      board[row][col] = player;        // fill in the square with player
      numFreeSquares--;            // decrement number of free squares
@@ -64,8 +64,6 @@ public class TicTacToe
      else if (numFreeSquares==0) 
         winner = TIE; // board is full so it's a tie
      
-     // print current board
-     print();
      
      // change to other player (this won't do anything if game has ended)
      if (player==PLAYER_X) 
